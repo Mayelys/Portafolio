@@ -1,0 +1,101 @@
+h1 {
+    color: #1E133B;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+h2{
+    color: #76388A;
+}
+
+hr{
+    font-family: monospace; /* No tiene efecto */
+    background-color: #1E133B; /* Sí tiene efecto */
+    height: 5px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+#sections {
+    background-color: hsl(20, 10, 10);
+    color: #1E133B;
+}
+
+html{
+    background-color: #6D53A7;
+}
+
+a[href^="#"]
+{
+color: #5A0D52;
+}
+
+a[href^="https://"]
+{
+color: #1E133B;
+}
+
+html[lang|="es"] {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+input[type] {
+    background-color: #932F6D;
+ }
+
+a:hover{
+    color: #932F6D;
+}
+
+button:active {
+    background-color: #76388A;
+}
+input:focus {
+    background-color: #5A0D52;
+ }
+input:checked {
+    background-color: #932F6D;
+}
+input:disabled {
+    background-color: #1E133B;
+    color: white;
+}
+
+#parrafos p:first-child {
+    background-color: #76388A;
+}
+    
+#parrafos p:last-child {
+    background-color: #5A0D52;
+}
+    
+#parrafos p:nth-child(3) {
+    font-weight: bolder;
+}
+    
+#parrafos p:nth-child(even),
+#parrafos h2:nth-of-type(even){
+    text-decoration: underline;
+}
+    
+#parrafos p:nth-child(even):first-letter {
+    font-size: 30px;
+
+}
+
+ul li::marker {
+    content: "💀";
+}
+
+ul li ul li::marker {
+    content: "🏵️";
+}
+
+ul li ul li ul li::marker {
+    content: "🕯️";
+}
