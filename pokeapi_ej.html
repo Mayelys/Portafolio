@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.jade.min.css">
+   <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+   <link rel="stylesheet" href="css/pico-styles.css">
+   <title>Ejercicio de fetching con API de Pokémon</title>
+   <style>
+      dt {  font-weight: bold; }
+      dd { text-transform: capitalize; }
+      audio { margin: 8px; }
+      h1 { text-align: center; }
+      div[role=search] { --pico-spacing: 0; }
+   </style>
+</head>
+<a href="index.html">🏠</a>
+<a href="api_aleatorio.html">➡</a>
+<br>
+<body>
+   <main class="container">
+      <h1>PokéAPI</h1>
+      <article>
+         <div role="search">
+            <input type="text" id="caja-busqueda" placeholder="Buscar un pokémon...">
+            <button id="boton-busqueda">Buscar</button>
+         </div>
+      </article>
+      <article>
+         <dl>
+            <dt>Nombre</dt>
+            <dd class="texto" id="pokemon-name"></dd>
+            <dt>Tipos</dt>
+            <dd class="texto" id="pokemon-types"></dd>
+            <dt>Estadísticas</dt>
+            <dd class="texto" id="pokemon-stats"></dd>
+            <dt>Habilidades</dt>
+            <dd class="texto" id="pokemon-abilities"></dd>
+            <dt>Imagen</dt>
+            <dd>
+               <img id="pokemon-image" src="" alt="">
+            </dd>
+            <dt>Chillidos</dt>
+            <dd id="pokemon-cries"></dd>
+         </dl>
+      </article>
+   </main>
+</body>
+</html>
